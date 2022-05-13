@@ -1,0 +1,110 @@
+#grad1 {
+height: 2000px;
+width: 100%;
+background-color: rgb(63, 63, 63); 
+background-image: linear-gradient(rgb(0, 255, 255), rebeccapurple);
+background-size: fill;
+}
+
+img {
+float:left
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rebeccapurple;
+}
+
+li {
+float: left;
+border-right:1px solid rgb(43, 43, 43);
+}
+
+
+li:last-child {
+border-right: none;
+}
+
+li a {
+display: block;
+color: cyan;
+padding: 35px 30px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: cyan;
+} 
+
+.active {
+background-color: rebeccapurple;
+}
+
+.footer {
+position: fixed;
+display: flex;
+bottom: 0;
+width: 100%;
+height: 60px;
+background-color: rebeccapurple;
+color: white;
+justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.col {
+
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    width: 33.33%;
+}
+
+.cb{
+    box-sizing: content-box;
+    background-color: cyan;
+    width: 100%;
+    padding: 0 0px;
+    border: 3px solid black;
+
+}
+
+.bb{
+    box-sizing: border-box;
+    background-color: rebeccapurple;
+    width: 300px;
+}
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+    height: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rebeccapurple;
+    text-shadow: 2px 2px 5px cyan;
+  }
+  
+  .video {
+  margin: 20px;
+  }
+
+  .textcentered {
+    text-align: center;
+  }
